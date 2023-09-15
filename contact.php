@@ -14,14 +14,19 @@
         <!-- Page Title -->
         <h1>Contact Us</h1>
         <!-- Page Description -->
-        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+        <p> GREATER CHENNAI REGISTERED ENGINEERS ASSOCIATION.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!--====  End of Page Title  ====-->
-
+<style>
+   .details p{
+        margin:10px 0px;
+        
+    }
+</style>
 
 <!--=====================================
 =            Address and Map            =
@@ -31,24 +36,21 @@
     <div class="row">
       <div class="col-lg-5 align-self-center">
         <div class="block">
-          <div class="address-block text-center mb-5">
+          <div class="address-block  mb-5">
             <div class="icon">
               <i class="ti-mobile"></i>
             </div>
-            <div class="details">
-              <h3>(00) 789 456 7890 (USA)</h3>
-              <h3>(88) 016 725 0455 (UK)</h3>
+            <div class="details text-left">
+              <p>Off: GCREA - "AMAR SINDHUR" Towers,</p>
+                 <p>   No. 43, 5th Floor, Pantheon Road,</p>
+                  <p>  (Near Hotel Ashoka), Egmore,</p>
+                  <p>  Chennai- 600008.</p>
+                  <p>  Phone:044-4553 0083</p>
+                  <p>  E-mail: gcreassociation2003@gmail.com</p>
+            
             </div>
           </div>
-          <div class="address-block text-center">
-            <div class="icon">
-              <i class="ti-map-alt"></i>
-            </div>
-            <div class="details">
-              <h3>36. St Michael’s St, Oxford OX1, UK</h3>
-              <h3>123, Pennsylvania, USA</h3>
-            </div>
-          </div>
+         
         </div>
       </div>
       <div class="col-lg-7 mt-5 mt-lg-0">
