@@ -26,7 +26,7 @@
                     <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item @@about">
-                    <a class="nav-link" href="#">Go</a>
+                    <a class="nav-link" href="go.php">Go</a>
                 </li>
                 <li class="nav-item @@about">
                     <a class="nav-link" href="#">Activity and Training</a>

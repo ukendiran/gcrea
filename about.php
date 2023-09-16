@@ -71,16 +71,6 @@
 	</div>
 </section>
 
-<
-
-
-
-
-
-<!--=====================================
-=            Section comment            =
-======================================-->
-
 <section class="section cta-hire bg-gary">
 	<div class="container">
 		<div class="row">
