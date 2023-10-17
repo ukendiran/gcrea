@@ -7,6 +7,50 @@
 
 (function ($) {
   'use strict';
+  
+        $('.btn-login').click(function(){
+           var mobile = $('#mobile').val();
+           if(mobile != ""){
+                    var mobileNumber = "91" + mobile;
+                                var configuration = {
+                                    widgetId: "336776706f44343133353038",
+                                    tokenAuth: "401998T8dXEwkg64bbb368P1",
+                                    identifier: mobileNumber,
+                                    success: (data) => {
+                                        console.log(data);
+                                        if (data.type == "success") {
+                                            // window.location.href = 'resources.php';
+                                            $.ajax({
+                                                 type: "POST",
+                                                 url: 'mobile.php',
+                                                 data: {status: 'success',mobile:mobileNumber},
+                                                 success: function(resp){
+                                                        if (resp =="success") window.location.href = 'resources.php';
+                                                        else alert("Un Authorized User");
+                                                 },
+                                                 error: function(xhr, status, error){
+                                                 console.error(xhr);
+                                                 }
+                                            });
+                                        }
+                                    },
+                                    failure: (error) => {
+                                        // handle error
+                                        console.log('failure reason', error);
+                                    },
+                                };
+                               
+                                initSendOTP(configuration);
+            }
+              else{
+                  alert('Enter Mobile Number');
+              }
+  
+        });
+
+  
+  
+  
 
   // ----------------------------
   // AOS

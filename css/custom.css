@@ -30708,3 +30708,10 @@ p.disc {
   color: var(--color-primary-2);
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+
+.footer-main {
+    padding: 92px 0;
+    background: #264997;
+}

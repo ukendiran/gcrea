@@ -61,7 +61,11 @@
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-
+<style>
+html {
+  scroll-behavior: smooth !important;
+}
+</style>
 </head>
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">

@@ -1,31 +1,38 @@
 <div class="header-top header-top-one bg-1">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 d-xl-block d-none">
-                <div class="left">
-                    <div class="mail">
-                        <a href="mailto:info@gcrea.com"><i class="fal fa-envelope"></i> info@gcrea.com</a>
-                    </div>
-                    <div class="working-time">
-                        <p><i class="fal fa-clock"></i> Working: 8.00am - 5.00pm</p>
-                    </div>
+            <div class="col-lg-12 d-xl-block d-none">
+                <marquee  direction="left" height="30px" style="color:white;padding-top:4px">
+<span>OFFICE BEARERS every 1st week of Friday ,</span>
+<span style="margin-right:30px;">EXECUTIVE COMMITTEE every 2nd week of tuesday</span>
+
+</marquee>
                 </div>
-            </div>
-            <div class="col-lg-6 d-xl-block d-none">
-                <div class="right">
-                    <ul class="top-nav">
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                    <ul class="social-wrapper-one">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="mr--0" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+            <!--<div class="col-lg-6 d-xl-block d-none">-->
+            <!--    <div class="left">-->
+            <!--        <div class="mail">-->
+            <!--            <a href="mailto:info@gcrea.com"><i class="fal fa-envelope"></i> info@gcrea.in</a>-->
+            <!--        </div>-->
+            <!--        <div class="working-time">-->
+            <!--            <p><i class="fal fa-clock"></i> Working: 8.00am - 5.00pm</p>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <!--<div class="col-lg-6 d-xl-block d-none">-->
+            <!--    <div class="right">-->
+            <!--        <ul class="top-nav">-->
+            <!--            <li><a href="about.php">About</a></li>-->
+            <!--            <li><a href="#">News</a></li>-->
+            <!--            <li><a href="contact.php">Contact</a></li>-->
+            <!--        </ul>-->
+            <!--        <ul class="social-wrapper-one">-->
+            <!--            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>-->
+            <!--            <li><a href="#"><i class="fab fa-twitter"></i></a></li>-->
+            <!--            <li><a href="#"><i class="fab fa-instagram"></i></a></li>-->
+            <!--            <li><a class="mr--0" href="#"><i class="fab fa-linkedin-in"></i></a></li>-->
+            <!--        </ul>-->
+            <!--    </div>-->
+            <!--</div>-->
         </div>
     </div>
 </div>

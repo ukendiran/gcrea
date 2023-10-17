@@ -1,159 +1,129 @@
 <?php include_once 'includes/header.php'; ?>
-<?php include_once 'includes/navbar_top.php'; ?>
+
 <?php include_once 'includes/navbar.php'; ?>
+<style>
+    .list{
+        text-align:left;
+        margin-left:30px;
+    }
+    .list p{
+        text-align:left;
+        margin-top:10px;
+    }
+    .mt-10{
+        margin-top:10px;
+    }
+    .service-box p {
+        margin-bottom:5px;
+    }
+  .gradient-banner {
+      padding:0px;
+      height:500px;
+      background-color:#fff;
+  }
+  .about-slider{
+      height:100%;
+  }
+  #carouselExampleIndicators img{
+      max-height:30% !important;
+  }
+    #about{
+        padding:0px;
+    }
+</style>
 
+<div class="bg-dark">
+<div class="container" >
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/training/anniversary-new-name-intro/1. 20th ANNIVERSARY & NEW NAME INDUCTION 13-09-2022.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/training/anniversary-new-name-intro/2. 20th ANNIVERSARY & NEW NAME INDUCTION 13-09-2022.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/training/anniversary-new-name-intro/3. 20th ANNIVERSARY & NEW NAME INDUCTION 13-09-2022.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/training/anniversary-new-name-intro/4. 20th ANNIVERSARY & NEW NAME INDUCTION 13-09-2022.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/training/anniversary-new-name-intro/022A4624.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
 
-
-<!--====================================
-=            Hero Section            =
-=====================================-->
-<section class="section gradient-banner">
-	<div class="shapes-container">
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-	</div>
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h2 class="text-white font-weight-bold mb-4">Welcome! Start Growing Your Business Today</h2>
-				<h4 class="text-white mb-5">Make Business Unique With Great Ideas</h4>
-				<p class="text-success mb-5 ">International Construction Equipment & Materials Exhibition</p>
-				<a href="#" class="btn btn-main-md">Download Now</a>
-			</div>
-			<div class="col-md-6 text-center order-1 order-md-2">
-				<img class="img-fluid" src="images/mobile.png" alt="screenshot">
-			</div>
-		</div>
-	</div>
-</section>
 <!--====  End of Hero Section  ====-->
+<?php include_once 'includes/home.php'; ?>
+	<div class="container">
+		<div class="row  text-center">
+		    <h3 class="mt-5" style="width:100%;text-align:center">About Us</h3>
+	    </div>
+    </div>
+<?php include_once 'pages/about.php'; ?>
+<?php //include_once 'includes/board_members.php'; ?>
+<div class="container">
+		<div class="row  text-center">
+		    <h3 class="mt-5" style="width:100%;text-align:center; padding-bottom:20px;">Contact Us</h3>
+	    </div>
+    </div>
 
+<?php include_once 'pages/contact.php'; ?>
 
-<!--==============================
-=            Services            =
-===============================-->
-<section class="service section bg-gray">
-	<div class="container-fluid p-0">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>An Interface For Lifestyle</h2>
-					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a> makes
-						it easy to stay on top of your Life Style. No late tasks. No gimmicks.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-lg-6 align-self-center">
-				<!-- Feature Image -->
-				<div class="service-thumb left" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/iphone-ipad.jpg" alt="iphone-ipad">
-				</div>
-			</div>
-			<div class="col-lg-5 mr-auto align-self-center">
-				<div class="service-box">
-					<div class="row align-items-center">
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-bookmark"></i>
-								<!-- Heading -->
-								<h3>Easy Prototyping</h3>
-								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-pulse"></i>
-								<!-- Heading -->
-								<h3>Sensor Bridge</h3>
-								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-bar-chart"></i>
-								<!-- Heading -->
-								<h3>Strategist</h3>
-								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-panel"></i>
-								<!-- Heading -->
-								<h3>Art Direction</h3>
-								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Services  ====-->
-
-
-
-
-<section class="call-to-action-app section bg-blue">
+<!--=====================================
+=            Client Slider              =
+======================================-->
+<section class="section clients bg-gray">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<h2>It's time to change your mind</h2>
-				<p>Download over 2 million humans .Get <a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a> free forever!
-					<br>We say you won’t look back.
-				</p>
-				<ul class="list-inline">
-					<li class="list-inline-item">
-						<a href="" class="btn btn-rounded-icon">
-							<i class="ti-apple"></i>
-							Iphone
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="" class="btn btn-rounded-icon">
-							<i class="ti-android"></i>
-							Android
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="" class="btn btn-rounded-icon">
-							<i class="ti-microsoft-alt"></i>
-							Windows
-						</a>
-					</li>
-				</ul>
+			<div class="col-10 m-auto text-center">
+				<h3>Our Sponcers</h3>
+				<div class="client-slider">
+				    <?php
+        $imageFolder = "images/sponcers/"; // Replace with the actual path to your image folder
+        $imageCounter = 1;
+
+        // Get all image files from the folder
+        $images = glob($imageFolder . "*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+
+        // Loop through the images and display them
+        foreach ($images as $image) {
+            $imageId = "image" . $imageCounter;
+            ?>	<!-- Testimonial 01 -->
+			
+					<div class="item mb-4">
+						<img class="m-auto" src="<?= $image ?>" alt="business-finder">
+					</div>
+					    <?php
+            $imageCounter++;
+        }
+        ?>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<!--====  End of Client Slider  ====-->
+
 
 
 
