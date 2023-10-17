@@ -44,12 +44,6 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
 <?php include_once 'pages/contact.php'; ?>
 <?php include_once 'includes/footer.php'; ?>
 <?php include_once 'includes/footer_bottom.php'; ?>
