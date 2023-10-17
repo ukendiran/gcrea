@@ -17,5 +17,8 @@ jobs:
         server: ${{ secrets.GCREA_FTP_SERVER }}
         username: ${{ secrets.GCREA_FTP_USERNAME }}
         password: ${{ secrets.GCREA_FTP_PASSWORD }}
+        passive: true
+        
+
 
         
